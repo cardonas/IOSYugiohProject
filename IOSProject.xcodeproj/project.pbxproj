@@ -3,17 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B09416B0226E5F4F00F37FA5 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09416AF226E5F4F00F37FA5 /* Player.swift */; };
+		B09416B2226E66D300F37FA5 /* AddPlayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09416B1226E66D300F37FA5 /* AddPlayers.swift */; };
+		B09416B4226E717B00F37FA5 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09416B3226E717B00F37FA5 /* Game.swift */; };
 		B09E1AFD22555449005EBD17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09E1AFC22555449005EBD17 /* AppDelegate.swift */; };
-		B09E1AFF22555449005EBD17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09E1AFE22555449005EBD17 /* ViewController.swift */; };
 		B09E1B0222555449005EBD17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B09E1B0022555449005EBD17 /* Main.storyboard */; };
 		B09E1B042255544A005EBD17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B09E1B032255544A005EBD17 /* Assets.xcassets */; };
 		B09E1B072255544A005EBD17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B09E1B052255544A005EBD17 /* LaunchScreen.storyboard */; };
 		B09E1B122255544A005EBD17 /* IOSProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09E1B112255544A005EBD17 /* IOSProjectTests.swift */; };
 		B09E1B1D2255544A005EBD17 /* IOSProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09E1B1C2255544A005EBD17 /* IOSProjectUITests.swift */; };
+		B0C93DA92277A23A00A97D19 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C93DA82277A23A00A97D19 /* CheckBox.swift */; };
+		B0C93DAB2277ADBB00A97D19 /* SelectPlayersToDamage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C93DAA2277ADBB00A97D19 /* SelectPlayersToDamage.swift */; };
+		B0F1DDE922660E3300F41ED1 /* PlayerSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F1DDE822660E3300F41ED1 /* PlayerSelection.swift */; };
+		B566E7BC2277E5E3001A231D /* Calc.swift in Sources */ = {isa = PBXBuildFile; fileRef = B566E7BB2277E5E3001A231D /* Calc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B09416AF226E5F4F00F37FA5 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		B09416B1226E66D300F37FA5 /* AddPlayers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlayers.swift; sourceTree = "<group>"; };
+		B09416B3226E717B00F37FA5 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		B09E1AF922555449005EBD17 /* IOSProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B09E1AFC22555449005EBD17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B09E1AFE22555449005EBD17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B09E1B0122555449005EBD17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B09E1B032255544A005EBD17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B09E1B062255544A005EBD17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +55,10 @@
 		B09E1B182255544A005EBD17 /* IOSProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B09E1B1C2255544A005EBD17 /* IOSProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSProjectUITests.swift; sourceTree = "<group>"; };
 		B09E1B1E2255544A005EBD17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0C93DA82277A23A00A97D19 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		B0C93DAA2277ADBB00A97D19 /* SelectPlayersToDamage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPlayersToDamage.swift; sourceTree = "<group>"; };
+		B0F1DDE822660E3300F41ED1 /* PlayerSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerSelection.swift; sourceTree = "<group>"; };
+		B566E7BB2277E5E3001A231D /* Calc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +109,18 @@
 		B09E1AFB22555449005EBD17 /* IOSProject */ = {
 			isa = PBXGroup;
 			children = (
+				B09416AF226E5F4F00F37FA5 /* Player.swift */,
 				B09E1AFC22555449005EBD17 /* AppDelegate.swift */,
-				B09E1AFE22555449005EBD17 /* ViewController.swift */,
+				B09416B1226E66D300F37FA5 /* AddPlayers.swift */,
+				B0C93DAA2277ADBB00A97D19 /* SelectPlayersToDamage.swift */,
 				B09E1B0022555449005EBD17 /* Main.storyboard */,
+				B566E7BB2277E5E3001A231D /* Calc.swift */,
+				B0C93DA82277A23A00A97D19 /* CheckBox.swift */,
+				B0F1DDE822660E3300F41ED1 /* PlayerSelection.swift */,
 				B09E1B032255544A005EBD17 /* Assets.xcassets */,
 				B09E1B052255544A005EBD17 /* LaunchScreen.storyboard */,
 				B09E1B082255544A005EBD17 /* Info.plist */,
+				B09416B3226E717B00F37FA5 /* Game.swift */,
 			);
 			path = IOSProject;
 			sourceTree = "<group>";
@@ -205,7 +223,7 @@
 				};
 			};
 			buildConfigurationList = B09E1AF422555449005EBD17 /* Build configuration list for PBXProject "IOSProject" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -256,8 +274,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B09E1AFF22555449005EBD17 /* ViewController.swift in Sources */,
+				B09416B2226E66D300F37FA5 /* AddPlayers.swift in Sources */,
+				B0C93DAB2277ADBB00A97D19 /* SelectPlayersToDamage.swift in Sources */,
+				B09416B4226E717B00F37FA5 /* Game.swift in Sources */,
+				B0C93DA92277A23A00A97D19 /* CheckBox.swift in Sources */,
+				B09416B0226E5F4F00F37FA5 /* Player.swift in Sources */,
+				B566E7BC2277E5E3001A231D /* Calc.swift in Sources */,
 				B09E1AFD22555449005EBD17 /* AppDelegate.swift in Sources */,
+				B0F1DDE922660E3300F41ED1 /* PlayerSelection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,16 +456,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JJ8FH7KHZK;
 				INFOPLIST_FILE = IOSProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = cardonaSteven.IOSProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -450,16 +477,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JJ8FH7KHZK;
 				INFOPLIST_FILE = IOSProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = cardonaSteven.IOSProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
